@@ -7,6 +7,6 @@ d = int(input("Mitu küpsist on ühes pakis: "))
 
 pakkide_arv =  ceil(a * b * c / d)
 lause_osa = " küpsisepakki tuleb tordi jaoks osta."
-lause = str(pakkide_arv)+lause_osa
+minepoodi = str(pakkide_arv)+lause_osa
 
-print(lause)
+print(minepoodi)
