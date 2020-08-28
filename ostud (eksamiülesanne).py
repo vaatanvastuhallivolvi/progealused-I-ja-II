@@ -27,10 +27,10 @@ for S in hinnad:
         suured.append(suur)
         print(suur)
 
-lõplik_hind = keskmikud + suured
+fin_hind = keskmikud + suured
 
 summa = 0
-for tellimus in lõplik_hind:
+for tellimus in fin_hind:
     summa += tellimus
     
 fail.close()
