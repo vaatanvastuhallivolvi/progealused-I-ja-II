@@ -11,15 +11,15 @@ with open(lendav, encoding = "UTF-8") as fail:
 lõimed2 = []
 for el in vaibad:
     if float(el) >= 5:
-        realiteet = lõimede_pikkus(el, pikemad)
+        vaibakas = lõimede_pikkus(el, pikemad)
     else:
-        realiteet = lõimede_pikkus(el, lühemad)
-    print(realiteet)
-    lõimed2 += [realiteet]
+        vaibakas = lõimede_pikkus(el, lühemad)
+    print(vaibakas)
+    lõimed2 += [vaibakas]
     
 summa = 0
-for realiteet in lõimed2:
-    summa += realiteet
+for vaibakas in lõimed2:
+    summa += vaibakas
 
 summa = round(summa, 2)
 print("Kõigi vaipade peale läheb vaja " + str(summa) + " meetrit lõimeniiti.")
