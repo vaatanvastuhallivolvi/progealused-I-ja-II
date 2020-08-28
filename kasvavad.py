@@ -10,8 +10,8 @@ def on_kasvav(rida):
             
 jarjend_ruudus = [[0, 5, 4, 1], [3, 4]]
 
-kasvavaid = 0
+tõusvaid = 0
 for arvud in jarjend_ruudus:
-    kasvavaid += on_kasvav(arvud)
+    tõusvaid += on_kasvav(arvud)
     
 print("Kasvavaid ridu on " + str(kasvavaid) + ".")
