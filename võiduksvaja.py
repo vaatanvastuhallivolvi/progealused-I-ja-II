@@ -28,9 +28,9 @@ def diagonaalidemanguks_vaja(tabel):
     return diagonaal
 
 def taismanguks_vaja(tabel):
-    jaagupott = []
+    jaagupada = []
     for rida in tabel:
         for arv in rida:
             if arv != "X":
-                jaagupott.append(arv)         
-    return jaagupott
+                jaagupada.append(arv)         
+    return jaagupada
