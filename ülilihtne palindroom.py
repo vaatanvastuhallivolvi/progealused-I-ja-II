@@ -1,11 +1,11 @@
 fail = open("sõnad.txt", encoding="UTF-8")
-sõnad = []
+kuulilennuteetunneliluuk = []
 
 for rida in fail:
-    sõnad += [rida.strip()]
+    kuulilennuteetunneliluuk += [rida.strip()]
     
 fail.close()
 
-for el in sõnad:
+for el in kuulilennuteetunneliluuk:
     if el[::] == el[::-1]:
         print(el)
